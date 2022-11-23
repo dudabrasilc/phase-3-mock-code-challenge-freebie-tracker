@@ -17,5 +17,9 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(value: 10, item_name: "cap")
+Freebie.create(value: 25, item_name: "shirt")
+Freebie.create(value: 20, item_name: "bag")
+Freebie.create(value: 3, item_name: "sticker")
 
 puts "Seeding done!"
